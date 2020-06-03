@@ -99,6 +99,44 @@
         }
     ],
     "order": [
-        {}
+        {
+            "id": 1,
+            "firstName": null,
+            "lastName": "adsf",
+            "email": "adsf",
+            "phone": "235423423",
+            "crust": {
+                "id": 1,
+                "name": "Cheese",
+                "price": 3
+            },
+            "sauce": {
+                "id": 1,
+                "name": "Barbecue",
+                "price": 1
+            },
+            "orderTime": "Wed Jun 03 2020 15:08:40 GMT+0530",
+            "status": "WAITING",
+            "toppings": [
+                {
+                    "id": 1,
+                    "name": "Capsicum",
+                    "price": 1,
+                    "isNonVeg": false
+                },
+                {
+                    "id": 1,
+                    "name": "Olives",
+                    "price": 1,
+                    "isNonVeg": false
+                },
+                {
+                    "id": 1,
+                    "name": "Onions",
+                    "price": 1,
+                    "isNonVeg": false
+                }
+            ],
+        }
     ]
 }
