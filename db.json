@@ -1,36 +1,104 @@
 {
-  "teams": [
-    {
-      "id": "1",
-      "teamName": "Walmart",
-      "clientId": "1"
-    },
-    {
-      "id": "2",
-      "teamName": "Core",
-      "clientId": "2"
-    },
-    {
-      "id": "3",
-      "teamName": "Unilever",
-      "clientId": "2"
-    },
-    {
-      "id": "4",
-      "teamName": "Kellogs",
-      "clientId": "1"
-    }
-  ],
-  "clients": [
-    {
-      "id": "1",
-      "name": "Walmart Client",
-      "description": "Dedicated Client to Walmart"
-    },
-    {
-      "id": "2",
-      "name": "Sc Johnson",
-      "description": ""
-    }
-  ]
+    "crust": [
+        {
+            "id": 1,
+            "name": "Thin",
+            "price": 2
+        },
+        {
+            "id": 1,
+            "name": "Cheese",
+            "price": 3
+        },
+        {
+            "id": 1,
+            "name": "Pan",
+            "price": 2
+        }
+    ],
+    "sauce": [
+        {
+            "id": 1,
+            "name": "Tomato",
+            "price": 0
+        },
+        {
+            "id": 1,
+            "name": "Barbecue",
+            "price": 1
+        },
+        {
+            "id": 1,
+            "name": "Alfredo",
+            "price": 1
+        },
+        {
+            "id": 1,
+            "name": "Alfredo",
+            "price": 1
+        },
+        {
+            "id": 1,
+            "name": "BBQ",
+            "price": 2
+        },
+        {
+            "id": 1,
+            "name": "Garlic",
+            "price": 3
+        }
+    ],
+    "topping": [
+        {
+            "id": 1,
+            "name": "Tomato",
+            "price": 1,
+            "isNonVeg": false
+        },
+        {
+            "id": 1,
+            "name": "Capsicum",
+            "price": 1,
+            "isNonVeg": false
+        },
+        {
+            "id": 1,
+            "name": "Olives",
+            "price": 1,
+            "isNonVeg": false
+        },
+        {
+            "id": 1,
+            "name": "Onions",
+            "price": 1,
+            "isNonVeg": false
+        },
+        {
+            "id": 1,
+            "name": "Spinach",
+            "price": 2,
+            "isNonVeg": false
+        },
+        {
+            "id": 1,
+            "name": "Chicken Tikka",
+            "price": 3,
+            "isNonVeg": true
+        },
+        {
+            "id": 1,
+            "name": "Grilled Chicken",
+            "price": 3,
+            "isNonVeg": true
+        },
+        {
+            "id": 1,
+            "name": "Barbecue Chicken",
+            "price": 3,
+            "isNonVeg": true
+        }
+    ],
+    "order": [
+        {}
+    ]
 }
