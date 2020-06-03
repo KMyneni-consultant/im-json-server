@@ -1,0 +1,22 @@
+{
+  "name": "im-json-server",
+  "version": "1.0.0",
+  "description": "Mock REST API",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishtgkk/im-json-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishtgkk/im-json-server/issues"
+  },
+  "homepage": "https://github.com/krishtgkk/im-json-server#readme",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "teamName": "Walmart",
+      "clientId": "1"
+    },
+    {
+      "id": "2",
+      "teamName": "Core",
+      "clientId": "2"
+    },
+    {
+      "id": "3",
+      "teamName": "Unilever",
+      "clientId": "2"
+    },
+    {
+      "id": "4",
+      "teamName": "Kellogs",
+      "clientId": "1"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Walmart Client",
+      "description": "Dedicated Client to Walmart"
+    },
+    {
+      "id": "2",
+      "name": "Sc Johnson",
+      "description": ""
+    }
+  ]
+}

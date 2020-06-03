@@ -1,0 +1,27 @@
+GET ALL TEAMS
+http://localhost:3000/teams
+
+GET SINGLE Team
+http://localhost:3000/teams/1
+
+GET ALL CLIENTS
+http://localhost:3000/cients
+
+GET SINGLE CLIENT
+http://localhost:3000/clients/1
+
+GET ALL TEAMS OF A CLIENT
+http://localhost:3000/clients/1/teams
+
+FILTER CLIENTS BY NAME
+http://localhost:3000/clients?name=Walmart%20Client
+http://localhost:3000/clients?name=Walmart%20Client&name=Sc%20Johnson
+
+PAGINATION & LIMIT
+http://localhost:3000/clients?_page=1&_limit=1
+
+SORTING
+http://localhost:3000/clients?_sort=name&_order=asc
+
+FULL TEXT SEARCH
+http://localhost:3000/teams?q=walmart
